@@ -7,3 +7,5 @@ deps
 *.gcno
 .ycm_extra_conf.pyc
 mason_packages
+buck-out/
+.buckd/

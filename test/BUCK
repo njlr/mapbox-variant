@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'unique-ptr', 
+  header_namespace = '', 
+  headers = subdir_glob([
+    ('include', '**/*.hpp'), 
+  ]), 
+  srcs = [
+    'unique_ptr_test.cpp', 
+  ], 
+  deps = [
+    '//:variant', 
+  ]
+)
